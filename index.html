@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bank</title>
+        <link rel="stylesheet" href="css/style.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="shortcut icon" href="{{ url_for('static', path='/icons/favicon.ico') }}" type="image/x-icon">
+    </head>
+    <body>
+        <section class="main">
+            <div class="main__registration">
+                <div class="main__registration__img"><img src="https://www.instagram.com/static/images/web/logged_out_wordmark-2x.png/d2529dbef8ed.png" alt=""></div>
+                <button class="main__facebook__login_mobile">Продолжить с Facebook</button>
+                <div class="main__divider" id="divider__mobile">ИЛИ</div>
+                <form class="main__registration__form" action="#" method="POST">
+                    <input type="text" placeholder="Телефон, имя пользователя или эл. адрес" class="main__registration__form__input">
+                    <input type="password" placeholder="Пароль" class="main__registration__form__input">
+                    <div class="main__registration__forgot">Забыли пароль?</div>
+                    <input type="submit" value="Войти" class="main__registration__form__button">
+                </form>
+                <div class="main__divider" id="divider__pc">ИЛИ</div>
+                <div class="main__facebook__login">Войти через Facebook</div>
+                <div class="main__forgot">Забыли пароль?</div>
+            </div>
+            <div class="main__registration__offer">
+                У вас ещё нет аккаунта?&ensp;<a href="#"> Зарегистрироваться</a>
+            </div>
+            <div class="main__download__offer">
+                <div class="main__download__offer__text">Установите приложение.</div>
+                <div class="main__download__offer__markets">
+                    <a href="#"><img src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_russian-ru.png/bfba6d0fd6bd.png" alt="" class="main__download__offer__link"></a>
+                    <a href="#"><img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_russian-ru.png/4c70948c09f3.png" alt="" class="main__download__offer__link"></a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__links">
+                <div class="footer__links-link">Meta</div>
+                <div class="footer__links-link">Информация</div>
+                <div class="footer__links-link">Блог</div>
+                <div class="footer__links-link">Вакансии</div>
+                <div class="footer__links-link">Помощь</div>
+                <div class="footer__links-link">API</div>
+                <div class="footer__links-link">Конфиденциальность</div>
+                <div class="footer__links-link">Условия</div>
+                <div class="footer__links-link">Популярные аккаунты</div>
+                <div class="footer__links-link">Хэштеги</div>
+                <div class="footer__links-link">Места</div>
+                <div class="footer__links-link">Instagram Lite</div>
+            </div>
+            <div class="footer__links">
+                <div class="footer__links-link">Танцы</div>
+                <div class="footer__links-link">Еда и напитки</div>
+                <div class="footer__links-link">Дом и сад</div>
+                <div class="footer__links-link">Музыка</div>
+                <div class="footer__links-link">Изобразительное искусство</div>
+            </div>
+            <div class="footer__end">© 2022 Instagram from Meta</div>
+        </footer>
+    </body>
+</html>
+
